@@ -29,13 +29,13 @@ Repositório base para a atividade prática de desenvolvimento de uma API em Nod
 ## 📂 Estrutura do Projeto
 
 ```text
-├── .env.example                     # Modelo de variáveis de ambiente
 ├── Dockerfile                       # Receita da imagem Node.js
 ├── docker-compose.yml               # Orquestração dos serviços (App + Postgres)
-├── package.json                     # Dependências do projeto
 ├── database/
 │   └── init.sql                     # [IMPLEMENTAR] Script de criação da tabela access_log
 └── app/
+    ├── .env.example                 # Modelo de variáveis de ambiente
+    ├── package.json                 # Dependências do projeto
     ├── server.js                    # [COMPLETAR] Registro da rota GET /api/access
     ├── domain/
     │   └── access-log.entity.js     # [IMPLEMENTAR] Entidade e validação de hostname
