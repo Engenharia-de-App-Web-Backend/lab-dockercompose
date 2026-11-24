@@ -124,7 +124,7 @@ docker compose down
 ## Registro de Evidências e Resultados (Preenchimento pelo Aluno)
 
 **Nome Completo:** `Seu Nome Aqui`  
-**Turma / Semestre:** `2026.2`
+**Turma / Semestre:** `20xx.x`
 
 ### 1. Evidências da Etapa 1 (Persistência em Camadas e Docker Compose)
 
