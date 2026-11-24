@@ -1,17 +1,17 @@
-# 🐳 Prática: Access Log API com Arquitetura em Camadas e Docker Compose
+# Prática: Access Log API e Docker Compose
 
 Repositório base para a atividade prática de desenvolvimento de uma API em Node.js com arquitetura em camadas (**Domain**, **Application**, **Interfaces** e **Infrastructure**), persistência em **PostgreSQL** e orquestração com **Docker Compose**.
 
 ---
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 - [Git](https://git-scm.com/)
 - [Docker](https://www.docker.com/) e **Docker Compose** instalados e em execução
 
 ---
 
-## 🚀 Como começar
+## Como começar
 
 1. Clique no botão **"Use this template"** no topo deste repositório e selecione **"Create a new repository"**.
 2. Clone o seu novo repositório localmente:
@@ -26,7 +26,7 @@ Repositório base para a atividade prática de desenvolvimento de uma API em Nod
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```text
 ├── Dockerfile                       # Receita da imagem Node.js
@@ -51,7 +51,7 @@ Repositório base para a atividade prática de desenvolvimento de uma API em Nod
 
 ---
 
-## 🛠️ Checklist da Atividade
+## Checklist da Atividade
 
 - [ ] Criar a entidade `app/domain/access-log.entity.js`
 - [ ] Criar o serviço `app/application/access.service.js`
@@ -64,7 +64,7 @@ Repositório base para a atividade prática de desenvolvimento de uma API em Nod
 
 ---
 
-## ▶️ Executando o Projeto
+## Executando o Projeto
 
 Suba os contêineres com o comando:
 
@@ -80,7 +80,7 @@ docker compose down
 
 ---
 
-## ✅ Testando as Rotas
+## Testando as Rotas
 
 - **Status da API (já funcional):**
   ```bash

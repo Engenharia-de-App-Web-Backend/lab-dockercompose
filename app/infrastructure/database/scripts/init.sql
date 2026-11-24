@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS access_log (
+    id SERIAL PRIMARY KEY,
+    server_hostname VARCHAR(50) NOT NULL,
+    accessed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
